@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BLOCKS!!!</title>
+    <style>
+ .block {
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            background-color: #554;
+            width: 180px;
+            height: 180px;
+        }
+</style>
+<script>
+        function getRandomColor() {
+                // var letters = '0123456789ABCDEF';
+                // var color = '#';
+                // for (var i = 0; i < 6; i++) {
+                //     color += letters[Math.floor(Math.random() * 16)];
+                // }
+                color = '#' + Math.random().toString(16).slice(2, 8);
+                return color;
+
+            }
+        function mousehover(id)
+            {
+                
+                x = document.getElementById(id);
+                x.style.backgroundColor = getRandomColor();   
+            } 
+</script>
+<body>
+        <div class="block" id = "mydiv" onmouseover = "mousehover('mydiv')"></div>
+        <div class="block" id = "mydiv1" onmouseover = "mousehover('mydiv1')"></div>
+        <div class="block" id = "mydiv2" onmouseover = "mousehover('mydiv2')"></div>
+        <div class="block" id = "mydiv3" onmouseover = "mousehover('mydiv3')"></div>
+        <div class="block" id = "mydiv4" onmouseover = "mousehover('mydiv4')"></div>
+        <div class="block" id = "mydiv5" onmouseover = "mousehover('mydiv5')"></div>
+        <div class="block" id = "mydiv6" onmouseover = "mousehover('mydiv6')"></div>
+        <div class="block" id = "mydiv7" onmouseover = "mousehover('mydiv7')"></div>
+        <div class="block" id = "mydiv8" onmouseover = "mousehover('mydiv8')"></div>
+        <div class="block" id = "mydiv9" onmouseover = "mousehover('mydiv9')"></div>
+        <div class="block" id = "mydiv10" onmouseover = "mousehover('mydiv10')"></div>
+        <div class="block" id = "mydiv11" onmouseover = "mousehover('mydiv11')"></div>
+        <div class="block" id = "mydiv12" onmouseover = "mousehover('mydiv12')"></div>
+        <div class="block" id = "mydiv13" onmouseover = "mousehover('mydiv13')"></div>
+        <div class="block" id = "mydiv14" onmouseover = "mousehover('mydiv14')"></div>
+        <div class="block" id = "mydiv15" onmouseover = "mousehover('mydiv15')"></div>
+        <div class="block" id = "mydiv0" onmouseover = "mousehover('mydiv0')"></div>
+        <div class="block" id = "mydiv01" onmouseover = "mousehover('mydiv01')"></div>
+        <div class="block" id = "mydiv02" onmouseover = "mousehover('mydiv02')"></div>
+        <div class="block" id = "mydiv03" onmouseover = "mousehover('mydiv03')"></div>
+        <div class="block" id = "mydiv04" onmouseover = "mousehover('mydiv04')"></div>
+        <div class="block" id = "mydiv05" onmouseover = "mousehover('mydiv05')"></div>
+        <div class="block" id = "mydiv06" onmouseover = "mousehover('mydiv06')"></div>
+        <div class="block" id = "mydiv07" onmouseover = "mousehover('mydiv07')"></div>
+        <div class="block" id = "mydiv08" onmouseover = "mousehover('mydiv08')"></div>
+        <div class="block" id = "mydiv09" onmouseover = "mousehover('mydiv09')"></div>
+        <div class="block" id = "mydiv010" onmouseover = "mousehover('mydiv010')"></div>
+        <div class="block" id = "mydiv011" onmouseover = "mousehover('mydiv011')"></div>
+        <div class="block" id = "mydiv012" onmouseover = "mousehover('mydiv012')"></div>
+        <div class="block" id = "mydiv013" onmouseover = "mousehover('mydiv013')"></div>
+        <div class="block" id = "mydiv014" onmouseover = "mousehover('mydiv014')"></div>
+        <div class="block" id = "mydiv015" onmouseover = "mousehover('mydiv015')"></div>
+</body>
